@@ -1,0 +1,4 @@
+interface:
+  display_name: "Manual DP Blueprint Authoring"
+  short_description: "서로 다른 배타적 DP 구조를 수동 SVG로 설계·검증"
+  default_prompt: "Use $author-manual-dp-blueprints to derive architecture decision points for this domain and hand-author distinct A/B SVG blueprints with QA trade-offs and gates."

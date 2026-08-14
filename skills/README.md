@@ -2,6 +2,10 @@
 
 Every direct child directory of `skills/` is a standalone Codex skill. A package requires `SKILL.md`; `agents/openai.yaml` and bundled `references/`, `scripts/`, or `assets/` are optional.
 
+## Catalog
+
+- [`author-manual-dp-blueprints`](author-manual-dp-blueprints/SKILL.md) — architecture authority axes, hand-authored A/B SVG blueprints, trade-off records, and sequential validation gates.
+
 Repository tooling will support these operations:
 
 ```bash

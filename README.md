@@ -27,5 +27,27 @@ Reusable Codex skills live here as canonical, versioned source packages. Each fo
 - Existing differing installations are never overwritten unless `--replace` is explicit.
 - Secrets, local Codex state, caches, backups, and generated outputs stay untracked.
 
-See [`skills/README.md`](skills/README.md) for installation and contribution commands.
+## Available skills
 
+| Skill | Purpose |
+|---|---|
+| [`author-manual-dp-blueprints`](skills/author-manual-dp-blueprints/SKILL.md) | Derive narrow architecture decision points and hand-author mutually exclusive SVG candidates, comparisons, records, and sequential gates. |
+
+## Install
+
+From this checkout:
+
+```bash
+./skills/install.sh author-manual-dp-blueprints
+./skills/install.sh author-manual-dp-blueprints --verify
+```
+
+Into a specific project-local Codex directory:
+
+```bash
+./skills/install.sh author-manual-dp-blueprints --target /path/to/project/.codex/skills
+```
+
+From GitHub, ask Codex to use `$skill-installer` with repository `Jonghyun-An/26_Skills` and path `skills/author-manual-dp-blueprints`. The package layout is compatible with the official GitHub skill installer.
+
+See [`skills/README.md`](skills/README.md) for installation and contribution commands.
